@@ -1,0 +1,17 @@
+﻿Build started 28/04/2015 13:54:02.
+     1>Project "C:\Users\MF\Documents\Visual Studio 2013\Projects\MFC\MFC\MFC.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt AdvanceProcedural.c
+         AdvanceProcedural.c
+     1>c:\users\mf\documents\visual studio 2013\projects\mfc\mfc\advanceprocedural.c(45): warning C4047: 'initializing' : 'char' differs in levels of indirection from 'void *'
+     1>c:\users\mf\documents\visual studio 2013\projects\mfc\mfc\advanceprocedural.c(357): warning C4013: 'strrchr' undefined; assuming extern returning int
+     1>c:\users\mf\documents\visual studio 2013\projects\mfc\mfc\advanceprocedural.c(458): warning C4013: 'strcmp' undefined; assuming extern returning int
+     1>c:\users\mf\documents\visual studio 2013\projects\mfc\mfc\advanceprocedural.c(482): warning C4047: 'initializing' : 'char' differs in levels of indirection from 'void *'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\MF\Documents\Visual Studio 2013\Projects\MFC\Debug\MFC.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\MF\Documents\Visual Studio 2013\Projects\MFC\Debug\MFC.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\MF\Documents\Visual Studio 2013\Projects\MFC\Debug\MFC.lib" /MACHINE:X86 Debug\AdvanceProcedural.obj
+         MFC.vcxproj -> C:\Users\MF\Documents\Visual Studio 2013\Projects\MFC\Debug\MFC.exe
+     1>Done Building Project "C:\Users\MF\Documents\Visual Studio 2013\Projects\MFC\MFC\MFC.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.96
